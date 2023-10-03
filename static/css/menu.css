@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 .menu-main{
   display: flex;
-  gap: 20px;
+  gap: 25px;
   margin: 10px 0 5px;
   padding: 25px 0 5px;
-  background: #d4733b97;
+  background: #d3d4e897;
 }
 .item-space{
   flex-basis: 80%;
 }
 .menu-main div {display: inline-block;}
 .menu-main div:after {
-color: #606060;
+color: #050505;
 display: inline-block;
 vertical-align:top;
 }
@@ -29,8 +29,8 @@ text-transform: uppercase;
 display: inline-block;
 transition: color .2s;
 }
-.menu-main a, .menu-main a:visited {color: #0d0d0cf5;}
-.menu-main a.current, .menu-main a:hover{color: #aea271;}
+.menu-main a, .menu-main a:visited {color: #161613f5;}
+.menu-main a.current, .menu-main a:hover{color: #666561;}
 .menu-main a:before,
 .menu-main a:after {
 content: "";
@@ -40,7 +40,7 @@ top: auto;
 right: 50%;
 bottom: -5px;
 left: 50%;
-background: #ec4e10;
+background: #090909;
 transition: .5s;
 }
 .menu-main a:hover:before, .menu-main .current:before {left: 0;}
